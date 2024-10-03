@@ -1,0 +1,103 @@
+
+
+.cover {
+    display: flex;
+    background-image: url("../img/bg-c001.png");
+    align-items: center;
+    text-align: left;
+  }
+
+.cover-s{
+  padding-top: 10rem;
+}  
+.p-text {
+  padding-left: 5rem;
+  font-size: 1.48rem;
+  font-weight: 600;
+  text-shadow: 1px 1px #000000
+}
+  .display-1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 1;
+    padding-left: 5rem;
+  }
+  .mb-4 {
+    margin-bottom: 2rem !important;
+  }
+  .white {
+    color: #ffffff;
+  }  
+  .section-title {
+    font-style: normal;
+    line-height: 0.8;
+  }
+
+  @media (min-width: 1200px) {
+    .display-1 {
+      font-size: 8rem;
+    }
+  }
+
+  
+.mbr-fullscreen .mbr-overlay {
+    min-height: 100vh;
+  }
+  
+.mbr-fullscreen {
+    display: flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .mbr-overlay {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+
+  .social {
+    position: fixed;
+    top: 20rem;
+    right:0rem;
+}
+
+.social ul {
+  background-color: #eb6939;
+  padding: 0px;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  padding-right: 0.25rem;
+  border-radius: 15px 0 0 15px;
+}
+
+.social ul li {
+    display: block;
+    text-align: left;
+    padding: 5px;
+}
+
+.social ul li:hover i {
+  color: #212b51;
+}
+
+.social ul li i {
+  color: #ffffff;
+   padding: 15px;
+    width: 45px;
+  height: 45px; 
+  font-size: 25px;
+
+
+}
