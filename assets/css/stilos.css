@@ -275,6 +275,17 @@ background-position:left;
   .display-1 {
     font-size: 5rem;
   }
+  .h3-cont {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+  }
+  .cont-c01, .cont-c02 {
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+  .p-cont {
+    font-weight: 200;
+  }
 }
 
 @media (max-width: 576px) {
@@ -293,6 +304,21 @@ background-position:left;
     padding-left: 0;
     margin-top: 0.3rem;
   }
+  .cont-h1, .cont-h1-2 {
+    font-size: 3rem;
+  }
+  .cont-h1 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+  .cont-h1-2 {
+    padding-top: 1rem;
+  }
+  .cc {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -305,6 +331,11 @@ background-position:left;
   }
   .cover-s {
     padding-top: 0;
+  }
+  .h-foot {
+    font-size: 3rem;
+    text-align: center;
+    padding-left: 0;
   }
 }
 
